@@ -1,0 +1,183 @@
+{
+  "arrays_hashing": [
+    {"id": 1, "title": "Contains Duplicate", "difficulty": "Easy", "url": "https://leetcode.com/problems/contains-duplicate/", "pattern": "Array"},
+    {"id": 2, "title": "Valid Anagram", "difficulty": "Easy", "url": "https://leetcode.com/problems/valid-anagram/", "pattern": "Array"},
+    {"id": 3, "title": "Two Sum", "difficulty": "Easy", "url": "https://leetcode.com/problems/two-sum/", "pattern": "Array"},
+    {"id": 4, "title": "Group Anagrams", "difficulty": "Medium", "url": "https://leetcode.com/problems/group-anagrams/", "pattern": "Array"},
+    {"id": 5, "title": "Top K Frequent Elements", "difficulty": "Medium", "url": "https://leetcode.com/problems/top-k-frequent-elements/", "pattern": "Array"},
+    {"id": 6, "title": "Product of Array Except Self", "difficulty": "Medium", "url": "https://leetcode.com/problems/product-of-array-except-self/", "pattern": "Array"},
+    {"id": 7, "title": "Valid Sudoku", "difficulty": "Medium", "url": "https://leetcode.com/problems/valid-sudoku/", "pattern": "Array"},
+    {"id": 8, "title": "Encode and Decode Strings", "difficulty": "Medium", "url": "https://leetcode.com/problems/encode-and-decode-strings/", "pattern": "Array"},
+    {"id": 9, "title": "Longest Consecutive Sequence", "difficulty": "Medium", "url": "https://leetcode.com/problems/longest-consecutive-sequence/", "pattern": "Array"}
+  ],
+  "two_pointers": [
+    {"id": 10, "title": "Valid Palindrome", "difficulty": "Easy", "url": "https://leetcode.com/problems/valid-palindrome/", "pattern": "Two Pointers"},
+    {"id": 11, "title": "Two Sum II", "difficulty": "Medium", "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/", "pattern": "Two Pointers"},
+    {"id": 12, "title": "3Sum", "difficulty": "Medium", "url": "https://leetcode.com/problems/3sum/", "pattern": "Two Pointers"},
+    {"id": 13, "title": "Container With Most Water", "difficulty": "Medium", "url": "https://leetcode.com/problems/container-with-most-water/", "pattern": "Two Pointers"},
+    {"id": 14, "title": "Trapping Rain Water", "difficulty": "Hard", "url": "https://leetcode.com/problems/trapping-rain-water/", "pattern": "Two Pointers"}
+  ],
+  "stack": [
+    {"id": 15, "title": "Valid Parentheses", "difficulty": "Easy", "url": "https://leetcode.com/problems/valid-parentheses/", "pattern": "Stack"},
+    {"id": 16, "title": "Min Stack", "difficulty": "Medium", "url": "https://leetcode.com/problems/min-stack/", "pattern": "Stack"},
+    {"id": 17, "title": "Evaluate Reverse Polish Notation", "difficulty": "Medium", "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/", "pattern": "Stack"},
+    {"id": 18, "title": "Daily Temperatures", "difficulty": "Medium", "url": "https://leetcode.com/problems/daily-temperatures/", "pattern": "Stack"},
+    {"id": 19, "title": "Car Fleet", "difficulty": "Medium", "url": "https://leetcode.com/problems/car-fleet/", "pattern": "Stack"},
+    {"id": 20, "title": "Largest Rectangle in Histogram", "difficulty": "Hard", "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/", "pattern": "Stack"}
+  ],
+  "binary_search": [
+    {"id": 21, "title": "Binary Search", "difficulty": "Easy", "url": "https://leetcode.com/problems/binary-search/", "pattern": "Binary Search"},
+    {"id": 22, "title": "Search a 2D Matrix", "difficulty": "Medium", "url": "https://leetcode.com/problems/search-a-2d-matrix/", "pattern": "Binary Search"},
+    {"id": 23, "title": "Koko Eating Bananas", "difficulty": "Medium", "url": "https://leetcode.com/problems/koko-eating-bananas/", "pattern": "Binary Search"},
+    {"id": 24, "title": "Find Minimum in Rotated Sorted Array", "difficulty": "Medium", "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/", "pattern": "Binary Search"},
+    {"id": 25, "title": "Search in Rotated Sorted Array", "difficulty": "Medium", "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/", "pattern": "Binary Search"},
+    {"id": 26, "title": "Time Based Key-Value Store", "difficulty": "Medium", "url": "https://leetcode.com/problems/time-based-key-value-store/", "pattern": "Binary Search"},
+    {"id": 27, "title": "Median of Two Sorted Arrays", "difficulty": "Hard", "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/", "pattern": "Binary Search"}
+  ],
+  "sliding_window": [
+    {"id": 28, "title": "Best Time to Buy And Sell Stock", "difficulty": "Easy", "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/", "pattern": "Sliding Window"},
+    {"id": 29, "title": "Longest Substring Without Repeating Characters", "difficulty": "Medium", "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/", "pattern": "Sliding Window"},
+    {"id": 30, "title": "Longest Repeating Character Replacement", "difficulty": "Medium", "url": "https://leetcode.com/problems/longest-repeating-character-replacement/", "pattern": "Sliding Window"},
+    {"id": 31, "title": "Permutation In String", "difficulty": "Medium", "url": "https://leetcode.com/problems/permutation-in-string/", "pattern": "Sliding Window"},
+    {"id": 32, "title": "Minimum Window Substring", "difficulty": "Hard", "url": "https://leetcode.com/problems/minimum-window-substring/", "pattern": "Sliding Window"},
+    {"id": 33, "title": "Sliding Window Maximum", "difficulty": "Hard", "url": "https://leetcode.com/problems/sliding-window-maximum/", "pattern": "Sliding Window"}
+  ],
+  "linked_list": [
+    {"id": 34, "title": "Reverse Linked List", "difficulty": "Easy", "url": "https://leetcode.com/problems/reverse-linked-list/", "pattern": "Linked List"},
+    {"id": 35, "title": "Merge Two Sorted Lists", "difficulty": "Easy", "url": "https://leetcode.com/problems/merge-two-sorted-lists/", "pattern": "Linked List"},
+    {"id": 36, "title": "Linked List Cycle", "difficulty": "Easy", "url": "https://leetcode.com/problems/linked-list-cycle/", "pattern": "Linked List"},
+    {"id": 37, "title": "Reorder List", "difficulty": "Medium", "url": "https://leetcode.com/problems/reorder-list/", "pattern": "Linked List"},
+    {"id": 38, "title": "Remove Nth Node From End of List", "difficulty": "Medium", "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/", "pattern": "Linked List"},
+    {"id": 39, "title": "Copy List With Random Pointer", "difficulty": "Medium", "url": "https://leetcode.com/problems/copy-list-with-random-pointer/", "pattern": "Linked List"},
+    {"id": 40, "title": "Add Two Numbers", "difficulty": "Medium", "url": "https://leetcode.com/problems/add-two-numbers/", "pattern": "Linked List"},
+    {"id": 41, "title": "Find The Duplicate Number", "difficulty": "Medium", "url": "https://leetcode.com/problems/find-the-duplicate-number/", "pattern": "Linked List"},
+    {"id": 42, "title": "LRU Cache", "difficulty": "Medium", "url": "https://leetcode.com/problems/lru-cache/", "pattern": "Linked List"},
+    {"id": 43, "title": "Merge K Sorted Lists", "difficulty": "Hard", "url": "https://leetcode.com/problems/merge-k-sorted-lists/", "pattern": "Linked List"},
+    {"id": 44, "title": "Reverse Nodes In K Group", "difficulty": "Hard", "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/", "pattern": "Linked List"}
+  ],
+  "trees": [
+    {"id": 45, "title": "Invert Binary Tree", "difficulty": "Easy", "url": "https://leetcode.com/problems/invert-binary-tree/", "pattern": "Tree"},
+    {"id": 46, "title": "Maximum Depth of Binary Tree", "difficulty": "Easy", "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/", "pattern": "Tree"},
+    {"id": 47, "title": "Diameter of Binary Tree", "difficulty": "Easy", "url": "https://leetcode.com/problems/diameter-of-binary-tree/", "pattern": "Tree"},
+    {"id": 48, "title": "Balanced Binary Tree", "difficulty": "Easy", "url": "https://leetcode.com/problems/balanced-binary-tree/", "pattern": "Tree"},
+    {"id": 49, "title": "Same Tree", "difficulty": "Easy", "url": "https://leetcode.com/problems/same-tree/", "pattern": "Tree"},
+    {"id": 50, "title": "Subtree of Another Tree", "difficulty": "Easy", "url": "https://leetcode.com/problems/subtree-of-another-tree/", "pattern": "Tree"},
+    {"id": 51, "title": "Lowest Common Ancestor of a Binary Search Tree", "difficulty": "Easy", "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/", "pattern": "Tree"},
+    {"id": 52, "title": "Binary Tree Level Order Traversal", "difficulty": "Medium", "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/", "pattern": "Tree"},
+    {"id": 53, "title": "Binary Tree Right Side View", "difficulty": "Medium", "url": "https://leetcode.com/problems/binary-tree-right-side-view/", "pattern": "Tree"},
+    {"id": 54, "title": "Count Good Nodes in Binary Tree", "difficulty": "Medium", "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/", "pattern": "Tree"},
+    {"id": 55, "title": "Validate Binary Search Tree", "difficulty": "Medium", "url": "https://leetcode.com/problems/validate-binary-search-tree/", "pattern": "Tree"},
+    {"id": 56, "title": "Kth Smallest Element in a BST", "difficulty": "Medium", "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/", "pattern": "Tree"},
+    {"id": 57, "title": "Construct Binary Tree from Preorder and Inorder Traversal", "difficulty": "Medium", "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/", "pattern": "Tree"},
+    {"id": 58, "title": "Binary Tree Maximum Path Sum", "difficulty": "Hard", "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/", "pattern": "Tree"},
+    {"id": 59, "title": "Serialize and Deserialize Binary Tree", "difficulty": "Hard", "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/", "pattern": "Tree"}
+  ],
+  "heap_priority_queue": [
+    {"id": 60, "title": "Kth Largest Element in a Stream", "difficulty": "Easy", "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/", "pattern": "Heap"},
+    {"id": 61, "title": "Last Stone Weight", "difficulty": "Easy", "url": "https://leetcode.com/problems/last-stone-weight/", "pattern": "Heap"},
+    {"id": 62, "title": "K Closest Points to Origin", "difficulty": "Medium", "url": "https://leetcode.com/problems/k-closest-points-to-origin/", "pattern": "Heap"},
+    {"id": 63, "title": "Kth Largest Element in an Array", "difficulty": "Medium", "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/", "pattern": "Heap"},
+    {"id": 64, "title": "Task Scheduler", "difficulty": "Medium", "url": "https://leetcode.com/problems/task-scheduler/", "pattern": "Heap"},
+    {"id": 65, "title": "Design Twitter", "difficulty": "Medium", "url": "https://leetcode.com/problems/design-twitter/", "pattern": "Heap"},
+    {"id": 66, "title": "Find Median from Data Stream", "difficulty": "Hard", "url": "https://leetcode.com/problems/find-median-from-data-stream/", "pattern": "Heap"}
+  ],
+  "backtracking": [
+    {"id": 67, "title": "Subsets", "difficulty": "Medium", "url": "https://leetcode.com/problems/subsets/", "pattern": "Backtracking"},
+    {"id": 68, "title": "Combination Sum", "difficulty": "Medium", "url": "https://leetcode.com/problems/combination-sum/", "pattern": "Backtracking"},
+    {"id": 69, "title": "Permutations", "difficulty": "Medium", "url": "https://leetcode.com/problems/permutations/", "pattern": "Backtracking"},
+    {"id": 70, "title": "Subsets II", "difficulty": "Medium", "url": "https://leetcode.com/problems/subsets-ii/", "pattern": "Backtracking"},
+    {"id": 71, "title": "Combination Sum II", "difficulty": "Medium", "url": "https://leetcode.com/problems/combination-sum-ii/", "pattern": "Backtracking"},
+    {"id": 72, "title": "Word Search", "difficulty": "Medium", "url": "https://leetcode.com/problems/word-search/", "pattern": "Backtracking"},
+    {"id": 73, "title": "Palindrome Partitioning", "difficulty": "Medium", "url": "https://leetcode.com/problems/palindrome-partitioning/", "pattern": "Backtracking"},
+    {"id": 74, "title": "Letter Combinations of a Phone Number", "difficulty": "Medium", "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/", "pattern": "Backtracking"},
+    {"id": 75, "title": "N-Queens", "difficulty": "Hard", "url": "https://leetcode.com/problems/n-queens/", "pattern": "Backtracking"}
+  ],
+  "tries": [
+    {"id": 76, "title": "Implement Trie", "difficulty": "Medium", "url": "https://leetcode.com/problems/implement-trie-prefix-tree/", "pattern": "Trie"},
+    {"id": 77, "title": "Design Add and Search Words Data Structure", "difficulty": "Medium", "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/", "pattern": "Trie"},
+    {"id": 78, "title": "Word Search II", "difficulty": "Hard", "url": "https://leetcode.com/problems/word-search-ii/", "pattern": "Trie"}
+  ],
+  "graphs": [
+    {"id": 79, "title": "Number of Islands", "difficulty": "Medium", "url": "https://leetcode.com/problems/number-of-islands/", "pattern": "Graph"},
+    {"id": 80, "title": "Clone Graph", "difficulty": "Medium", "url": "https://leetcode.com/problems/clone-graph/", "pattern": "Graph"},
+    {"id": 81, "title": "Max Area of Island", "difficulty": "Medium", "url": "https://leetcode.com/problems/max-area-of-island/", "pattern": "Graph"},
+    {"id": 82, "title": "Pacific Atlantic Water Flow", "difficulty": "Medium", "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/", "pattern": "Graph"},
+    {"id": 83, "title": "Surrounded Regions", "difficulty": "Medium", "url": "https://leetcode.com/problems/surrounded-regions/", "pattern": "Graph"},
+    {"id": 84, "title": "Rotting Oranges", "difficulty": "Medium", "url": "https://leetcode.com/problems/rotting-oranges/", "pattern": "Graph"},
+    {"id": 85, "title": "Walls and Gates", "difficulty": "Medium", "url": "https://leetcode.com/problems/walls-and-gates/", "pattern": "Graph"},
+    {"id": 86, "title": "Course Schedule", "difficulty": "Medium", "url": "https://leetcode.com/problems/course-schedule/", "pattern": "Graph"},
+    {"id": 87, "title": "Course Schedule II", "difficulty": "Medium", "url": "https://leetcode.com/problems/course-schedule-ii/", "pattern": "Graph"},
+    {"id": 88, "title": "Redundant Connection", "difficulty": "Medium", "url": "https://leetcode.com/problems/redundant-connection/", "pattern": "Graph"},
+    {"id": 89, "title": "Number of Provinces", "difficulty": "Medium", "url": "https://leetcode.com/problems/number-of-provinces/", "pattern": "Graph"},
+    {"id": 90, "title": "Graph Valid Tree", "difficulty": "Medium", "url": "https://leetcode.com/problems/graph-valid-tree/", "pattern": "Graph"},
+    {"id": 91, "title": "Word Ladder", "difficulty": "Hard", "url": "https://leetcode.com/problems/word-ladder/", "pattern": "Graph"}
+  ],
+  "advanced_graphs": [
+    {"id": 92, "title": "Reconstruct Itinerary", "difficulty": "Medium", "url": "https://leetcode.com/problems/reconstruct-itinerary/", "pattern": "Advanced Graph"},
+    {"id": 93, "title": "Min Cost to Connect All Points", "difficulty": "Medium", "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/", "pattern": "Advanced Graph"},
+    {"id": 94, "title": "Network Delay Time", "difficulty": "Medium", "url": "https://leetcode.com/problems/network-delay-time/", "pattern": "Advanced Graph"},
+    {"id": 95, "title": "Swim In Rising Water", "difficulty": "Hard", "url": "https://leetcode.com/problems/swim-in-rising-water/", "pattern": "Advanced Graph"},
+    {"id": 96, "title": "Alien Dictionary", "difficulty": "Hard", "url": "https://leetcode.com/problems/alien-dictionary/", "pattern": "Advanced Graph"},
+    {"id": 97, "title": "Cheapest Flights Within K Stops", "difficulty": "Medium", "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/", "pattern": "Advanced Graph"}
+  ],
+  "dynamic_programming_1d": [
+    {"id": 98, "title": "Climbing Stairs", "difficulty": "Easy", "url": "https://leetcode.com/problems/climbing-stairs/", "pattern": "1D DP"},
+    {"id": 99, "title": "Min Cost Climbing Stairs", "difficulty": "Easy", "url": "https://leetcode.com/problems/min-cost-climbing-stairs/", "pattern": "1D DP"},
+    {"id": 100, "title": "House Robber", "difficulty": "Medium", "url": "https://leetcode.com/problems/house-robber/", "pattern": "1D DP"},
+    {"id": 101, "title": "House Robber II", "difficulty": "Medium", "url": "https://leetcode.com/problems/house-robber-ii/", "pattern": "1D DP"},
+    {"id": 102, "title": "Longest Palindromic Substring", "difficulty": "Medium", "url": "https://leetcode.com/problems/longest-palindromic-substring/", "pattern": "1D DP"},
+    {"id": 103, "title": "Palindromic Substrings", "difficulty": "Medium", "url": "https://leetcode.com/problems/palindromic-substrings/", "pattern": "1D DP"},
+    {"id": 104, "title": "Decode Ways", "difficulty": "Medium", "url": "https://leetcode.com/problems/decode-ways/", "pattern": "1D DP"},
+    {"id": 105, "title": "Coin Change", "difficulty": "Medium", "url": "https://leetcode.com/problems/coin-change/", "pattern": "1D DP"},
+    {"id": 106, "title": "Maximum Product Subarray", "difficulty": "Medium", "url": "https://leetcode.com/problems/maximum-product-subarray/", "pattern": "1D DP"},
+    {"id": 107, "title": "Word Break", "difficulty": "Medium", "url": "https://leetcode.com/problems/word-break/", "pattern": "1D DP"},
+    {"id": 108, "title": "Longest Increasing Subsequence", "difficulty": "Medium", "url": "https://leetcode.com/problems/longest-increasing-subsequence/", "pattern": "1D DP"},
+    {"id": 109, "title": "Partition Equal Subset Sum", "difficulty": "Medium", "url": "https://leetcode.com/problems/partition-equal-subset-sum/", "pattern": "1D DP"}
+  ],
+  "dynamic_programming_2d": [
+    {"id": 110, "title": "Unique Paths", "difficulty": "Medium", "url": "https://leetcode.com/problems/unique-paths/", "pattern": "2D DP"},
+    {"id": 111, "title": "Longest Common Subsequence", "difficulty": "Medium", "url": "https://leetcode.com/problems/longest-common-subsequence/", "pattern": "2D DP"},
+    {"id": 112, "title": "Best Time to Buy and Sell Stock with Cooldown", "difficulty": "Medium", "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/", "pattern": "2D DP"},
+    {"id": 113, "title": "Coin Change II", "difficulty": "Medium", "url": "https://leetcode.com/problems/coin-change-ii/", "pattern": "2D DP"},
+    {"id": 114, "title": "Target Sum", "difficulty": "Medium", "url": "https://leetcode.com/problems/target-sum/", "pattern": "2D DP"},
+    {"id": 115, "title": "Interleaving String", "difficulty": "Medium", "url": "https://leetcode.com/problems/interleaving-string/", "pattern": "2D DP"},
+    {"id": 116, "title": "Edit Distance", "difficulty": "Medium", "url": "https://leetcode.com/problems/edit-distance/", "pattern": "2D DP"},
+    {"id": 117, "title": "Distinct Subsequences", "difficulty": "Hard", "url": "https://leetcode.com/problems/distinct-subsequences/", "pattern": "2D DP"}
+  ],
+  "greedy": [
+    {"id": 118, "title": "Maximum Subarray", "difficulty": "Medium", "url": "https://leetcode.com/problems/maximum-subarray/", "pattern": "Greedy"},
+    {"id": 119, "title": "Jump Game", "difficulty": "Medium", "url": "https://leetcode.com/problems/jump-game/", "pattern": "Greedy"},
+    {"id": 120, "title": "Jump Game II", "difficulty": "Medium", "url": "https://leetcode.com/problems/jump-game-ii/", "pattern": "Greedy"},
+    {"id": 121, "title": "Gas Station", "difficulty": "Medium", "url": "https://leetcode.com/problems/gas-station/", "pattern": "Greedy"},
+    {"id": 122, "title": "Hand of Straights", "difficulty": "Medium", "url": "https://leetcode.com/problems/hand-of-straights/", "pattern": "Greedy"},
+    {"id": 123, "title": "Merge Triplets to Form Target Triplet", "difficulty": "Medium", "url": "https://leetcode.com/problems/merge-triplets-to-form-target-triplet/", "pattern": "Greedy"},
+    {"id": 124, "title": "Partition Labels", "difficulty": "Medium", "url": "https://leetcode.com/problems/partition-labels/", "pattern": "Greedy"},
+    {"id": 125, "title": "Valid Parenthesis String", "difficulty": "Medium", "url": "https://leetcode.com/problems/valid-parenthesis-string/", "pattern": "Greedy"}
+  ],
+  "intervals": [
+    {"id": 126, "title": "Insert Interval", "difficulty": "Medium", "url": "https://leetcode.com/problems/insert-interval/", "pattern": "Intervals"},
+    {"id": 127, "title": "Merge Intervals", "difficulty": "Medium", "url": "https://leetcode.com/problems/merge-intervals/", "pattern": "Intervals"},
+    {"id": 128, "title": "Non-overlapping Intervals", "difficulty": "Medium", "url": "https://leetcode.com/problems/non-overlapping-intervals/", "pattern": "Intervals"},
+    {"id": 129, "title": "Meeting Rooms", "difficulty": "Easy", "url": "https://leetcode.com/problems/meeting-rooms/", "pattern": "Intervals"},
+    {"id": 130, "title": "Meeting Rooms II", "difficulty": "Medium", "url": "https://leetcode.com/problems/meeting-rooms-ii/", "pattern": "Intervals"},
+    {"id": 131, "title": "Minimum Interval to Include Each Query", "difficulty": "Hard", "url": "https://leetcode.com/problems/minimum-interval-to-include-each-query/", "pattern": "Intervals"}
+  ],
+  "math_geometry": [
+    {"id": 132, "title": "Rotate Image", "difficulty": "Medium", "url": "https://leetcode.com/problems/rotate-image/", "pattern": "Math & Geometry"},
+    {"id": 133, "title": "Spiral Matrix", "difficulty": "Medium", "url": "https://leetcode.com/problems/spiral-matrix/", "pattern": "Math & Geometry"},
+    {"id": 134, "title": "Set Matrix Zeroes", "difficulty": "Medium", "url": "https://leetcode.com/problems/set-matrix-zeroes/", "pattern": "Math & Geometry"},
+    {"id": 135, "title": "Happy Number", "difficulty": "Easy", "url": "https://leetcode.com/problems/happy-number/", "pattern": "Math & Geometry"},
+    {"id": 136, "title": "Plus One", "difficulty": "Easy", "url": "https://leetcode.com/problems/plus-one/", "pattern": "Math & Geometry"},
+    {"id": 137, "title": "Pow(x, n)", "difficulty": "Medium", "url": "https://leetcode.com/problems/powx-n/", "pattern": "Math & Geometry"},
+    {"id": 138, "title": "Multiply Strings", "difficulty": "Medium", "url": "https://leetcode.com/problems/multiply-strings/", "pattern": "Math & Geometry"},
+    {"id": 139, "title": "Detect Squares", "difficulty": "Medium", "url": "https://leetcode.com/problems/detect-squares/", "pattern": "Math & Geometry"}
+  ],
+  "bit_manipulation": [
+    {"id": 140, "title": "Single Number", "difficulty": "Easy", "url": "https://leetcode.com/problems/single-number/", "pattern": "Bit Manipulation"},
+    {"id": 141, "title": "Number of 1 Bits", "difficulty": "Easy", "url": "https://leetcode.com/problems/number-of-1-bits/", "pattern": "Bit Manipulation"},
+    {"id": 142, "title": "Counting Bits", "difficulty": "Easy", "url": "https://leetcode.com/problems/counting-bits/", "pattern": "Bit Manipulation"},
+    {"id": 143, "title": "Missing Number", "difficulty": "Easy", "url": "https://leetcode.com/problems/missing-number/", "pattern": "Bit Manipulation"},
+    {"id": 144, "title": "Reverse Bits", "difficulty": "Easy", "url": "https://leetcode.com/problems/reverse-bits/", "pattern": "Bit Manipulation"},
+    {"id": 145, "title": "Sum of Two Integers", "difficulty": "Medium", "url": "https://leetcode.com/problems/sum-of-two-integers/", "pattern": "Bit Manipulation"}
+  ]
+}
