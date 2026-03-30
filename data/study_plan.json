@@ -2,7 +2,9 @@
   "daily_goal": 2,
   "preferred_difficulty": [
     "Easy",
-    "Medium"
+    "Medium",
+    "Hard"
   ],
-  "focus_categories": []
+  "focus_categories": [],
+  "exclude_solved_days": 7
 }

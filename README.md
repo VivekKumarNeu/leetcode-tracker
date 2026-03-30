@@ -16,16 +16,6 @@ A fun Python CLI tool to track your progress through the NeetCode 150 problems w
 ![LeetCode Tracker Practice](images/2.png)
 ![LeetCode Tracker Status](images/3.png)
 
-## Installation
-
-```bash
-# Clone or download the project
-cd leetcode-tracker
-
-# The tool uses only Python standard library (Python 3.7+)
-# No pip install required!
-```
-
 ## Quick Start
 
 ```bash
@@ -52,6 +42,7 @@ python main.py search -c arrays_hashing -d Easy
 ```bash
 python main.py daily          # Get 2 problems (default)
 python main.py daily -n 5     # Get 5 problems
+python main.py daily --topic stack   # Restrict to one NeetCode topic key
 ```
 
 ### Track Progress

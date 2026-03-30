@@ -59,6 +59,11 @@ class Storage:
                 )
                 problems.append(problem)
         return sorted(problems, key=lambda x: x.id)
+
+    def load_topics(self) -> List[str]:
+        """Return available NeetCode topic keys from `neetcode150.json`."""
+        data = self._load_json(self.problems_file)
+        return sorted(list(data.keys()))
     
     def load_progress(self) -> Dict[int, ProblemProgress]:
         """Load all problem progress."""

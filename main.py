@@ -66,11 +66,18 @@ class LeetCodeTracker:
         
         print()
     
-    def cmd_daily(self, count: int = 2):
+    def cmd_daily(self, count: int = 2, topic: Optional[str] = None):
         """Get daily practice questions."""
         self.print_header("Your Daily Practice")
         
-        questions = self.selector.get_daily_questions(count)
+        if topic:
+            topics = self.storage.load_topics()
+            if topic not in topics:
+                print(f"Invalid topic: '{topic}'")
+                print(f"Valid topics: {', '.join(topics)}")
+                return None
+
+        questions = self.selector.get_daily_questions(count, topic=topic)
         
         if not questions:
             print("No questions available! Check your study plan settings.")
@@ -83,21 +90,24 @@ class LeetCodeTracker:
             date=datetime.now().isoformat(),
             problems_attempted=[]
         )
-        self.storage.add_session(session)
         
         print(f"Session ID: {session_id}")
+        if topic:
+            print(f"💡 Topic: {topic}")
         print(f"💡 Today's goal: {count} problem(s)\n")
         
         for i, q in enumerate(questions, 1):
             self.print_problem(q, i)
             session.problems_attempted.append(q["id"])
-        
-        # Update session with problem IDs
-        self.storage.save_sessions(self.storage.load_sessions())
+
+        # Persist the session with selected problem IDs
+        self.storage.add_session(session)
         
         print("\n💬 Use 'hint <problem_id>' to get a hint")
         print("💬 Use 'start <problem_id>' when you begin solving")
         print("💬 Use 'complete <problem_id>' when you're done")
+        
+        return questions
     
     def cmd_review(self, count: int = 3):
         """Get review questions based on spaced repetition."""
@@ -272,6 +282,7 @@ def main():
 Examples:
   %(prog)s daily              # Get daily practice problems
   %(prog)s daily -n 5         # Get 5 problems for today
+  %(prog)s daily --topic stack # Restrict to a NeetCode topic key
   %(prog)s review             # Get problems due for review
   %(prog)s stats              # Show your progress
   %(prog)s hint 1             # Get hint for problem #1
@@ -287,6 +298,11 @@ Examples:
     # Daily command
     daily_parser = subparsers.add_parser("daily", help="Get daily practice problems")
     daily_parser.add_argument("-n", "--count", type=int, default=2, help="Number of problems")
+    daily_parser.add_argument(
+        "--topic",
+        default=None,
+        help="Restrict daily questions to a topic key from data/neetcode150.json (e.g. arrays_hashing, stack)"
+    )
     
     # Review command
     review_parser = subparsers.add_parser("review", help="Get review problems")
@@ -336,7 +352,7 @@ Examples:
     tracker = LeetCodeTracker()
     
     if args.command == "daily":
-        tracker.cmd_daily(args.count)
+        tracker.cmd_daily(args.count, args.topic)
     elif args.command == "review":
         tracker.cmd_review(args.count)
     elif args.command == "stats":

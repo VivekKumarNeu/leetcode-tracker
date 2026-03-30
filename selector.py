@@ -16,7 +16,7 @@ class QuestionSelector:
     def __init__(self, storage: Storage):
         self.storage = storage
     
-    def get_daily_questions(self, count: int = 2) -> List[Dict]:
+    def get_daily_questions(self, count: int = 2, topic: Optional[str] = None) -> List[Dict]:
         """
         Get a set of questions for daily practice.
         Uses spaced repetition algorithm.
@@ -35,9 +35,14 @@ class QuestionSelector:
             if problem.difficulty not in plan.preferred_difficulty:
                 continue
             
-            # Skip if category filtered out
-            if plan.focus_categories and problem.category not in plan.focus_categories:
-                continue
+            # If topic is specified, restrict to that topic key.
+            # Otherwise, use user's focus categories filter (if any).
+            if topic:
+                if problem.category != topic:
+                    continue
+            else:
+                if plan.focus_categories and problem.category not in plan.focus_categories:
+                    continue
             
             score = self._calculate_priority(problem, prog, plan)
             if score > 0:

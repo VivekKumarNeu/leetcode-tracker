@@ -56,10 +56,17 @@ class InteractiveMode:
         count = self.get_choice("Enter number: ")
         count = int(count) if count.isdigit() else 2
         
-        self.tracker.cmd_daily(count)
+        print("\nOptional: restrict to a NeetCode topic key (press Enter for any).")
+        topic = self.get_choice("Topic key: ")
+        topic = topic.strip() if topic else None
+        
+        questions = self.tracker.cmd_daily(count, topic=topic)
+        if not questions:
+            input("\nPress Enter to return to menu...")
+            return
         
         # Store active problems for quick access
-        self.active_problems = {}
+        self.active_problems = {q["id"]: q for q in questions}
         
         print("\n" + "-" * 60)
         print("Actions:")
