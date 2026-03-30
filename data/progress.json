@@ -1,18 +1,1 @@
-{
-  "1": {
-    "problem_id": 1,
-    "status": "solved",
-    "attempts": [
-      {
-        "timestamp": "2026-03-30T00:17:31.414798",
-        "solved": true,
-        "time_taken_minutes": 40,
-        "notes": "",
-        "solution_code": ""
-      }
-    ],
-    "last_attempt_date": "2026-03-30T00:17:31.414798",
-    "next_review_date": "2026-03-31T00:17:31.414836",
-    "confidence_level": 1
-  }
-}
+{}
