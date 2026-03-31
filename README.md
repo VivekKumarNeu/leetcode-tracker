@@ -1,7 +1,6 @@
 # 🎯 N-LeetCode Tracker
 
-A fun Python CLI tool to track your progress through the NeetCode 150 problems with spaced repetition and intelligent question selection.
-All credits to https://neetcode.io/
+A fun Python CLI tool to track your progress through the NeetCode 150 problems with spaced repetition and intelligent question selection. You can also add your own custom problems to the tracker. All credits to https://neetcode.io/
 
 ## Features
 
@@ -123,3 +122,5 @@ leetcode-tracker/
 ## License
 
 MIT License - Feel free to modify and share!
+
+Disclaimer: This project is an independent tool and is not affiliated with, or endorsed by, NeetCode.io. All LeetCode problem rights belong to LeetCode, and the curriculum structure is credited to NeetCode.
