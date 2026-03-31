@@ -155,7 +155,10 @@ class LeetCodeGuide:
             return f"Pattern: {hint_data.get('pattern', 'No hint available')}"
         
         # Return hint based on question number (for progressive hints)
-        idx = min(question_number - 1, len(hints) - 1)
+        if question_number > len(hints):
+            return "No more hints available for this pattern."
+            
+        idx = question_number - 1
         return f"Hint {question_number}: {hints[idx]}"
     
     def get_pattern_explanation(self, category: str) -> str:

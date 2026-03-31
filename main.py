@@ -204,7 +204,7 @@ class LeetCodeTracker:
             analysis = self.guide.analyze_performance(time_minutes, problem.difficulty, solved)
             print(f"\n{analysis}")
     
-    def cmd_hint(self, problem_id: int, hint_num: int = 1):
+    def cmd_hint(self, problem_id: int, hint_num: int = 1, show_prompt: bool = True):
         """Get a hint for a problem."""
         problem = next((p for p in self.storage.load_problems() if p.id == problem_id), None)
         
@@ -219,7 +219,8 @@ class LeetCodeTracker:
         hint = self.guide.get_hint(problem.category, problem.difficulty, hint_num)
         print(hint)
         
-        print(f"\n💬 Use 'hint {problem_id} {hint_num + 1}' for another hint")
+        if show_prompt:
+            print(f"\n💬 Use 'hint {problem_id} {hint_num + 1}' for another hint")
     
     def cmd_search(self, query: str = "", category: str = "", difficulty: str = "", 
                    status: str = ""):

@@ -97,7 +97,7 @@ class InteractiveMode:
             elif cmd == 'c':
                 self.complete_problem_flow(prob_id)
             elif cmd == 'h':
-                self.tracker.cmd_hint(prob_id)
+                self.tracker.cmd_hint(prob_id, show_prompt=False)
             else:
                 print("Unknown command. Use s, c, or h")
     
@@ -163,9 +163,34 @@ class InteractiveMode:
         self.clear_screen()
         
         prob_id = self.get_choice("Enter problem ID: ")
-        if prob_id.isdigit():
-            self.tracker.cmd_hint(int(prob_id))
-        input("\nPress Enter to continue...")
+        if not prob_id.isdigit():
+            input("\nInvalid ID. Press Enter to continue...")
+            return
+            
+        prob_id = int(prob_id)
+        hint_num = 1
+        
+        while True:
+            self.clear_screen()
+            self.tracker.cmd_hint(prob_id, hint_num, show_prompt=False)
+            
+            problem = next((p for p in self.tracker.storage.load_problems() if p.id == prob_id), None)
+            if not problem:
+                input("\nPress Enter to continue...")
+                break
+                
+            print("\nOptions:")
+            print("  [Enter] Next hint")
+            print("  [Number] Specific hint (e.g., 2)")
+            print("  [q] Quit to menu")
+            
+            choice = self.get_choice("Action: ").lower()
+            if choice == 'q':
+                break
+            elif choice.isdigit():
+                hint_num = int(choice)
+            else:
+                hint_num += 1
     
     def config_flow(self):
         """Configuration flow."""
